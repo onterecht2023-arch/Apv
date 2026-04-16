@@ -13,4 +13,3 @@ Amersfoort RolePlay	Main discord server van Hero Roleplay
 Amersfoort Support	Support discord server van Hero Roleplay
 Amersfoort Onderwereld	Onderwereld discord server van Hero Roleplay
 Amersfoort Overheid	Overheids discord server van Hero Roleplay
-*De Hoofd Pagina is opgesteld uit naam van de Beheerder(s), bedoeld voor het eiland, de gemeente en de stad “Amersfoort”, opgemaakt door Dominique & Joostt.
