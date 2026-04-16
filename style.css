@@ -1,63 +1,18 @@
-body {
-    margin: 0;
-    font-family: Arial;
-    background: #f4f4f4;
-}
-
-.navbar {
-    background: #3f51b5;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 15px 20px;
-}
-
-.logo-area {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
-
-.logo {
-    width: 35px;
-    margin-right: 10px;
-}
-
-.site-name {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.container {
-    width: 75%;
-    margin: 40px auto;
-    background: white;
-    padding: 30px;
-}
-
 .info-table {
     width: 100%;
+    max-width: 700px;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 30px;
+    background: white;
 }
 
 .info-table td {
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 22px 18px;
+    font-size: 18px;
+    color: #333;
 }
 
-.info-table td:first-child {
-    width: 35%;
-    background: #f8f8f8;
-    font-weight: bold;
+.info-table tr:nth-child(even) {
+    background: #fafafa;
 }
