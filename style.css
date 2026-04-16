@@ -5,19 +5,22 @@ body {
     color: #333;
 }
 
-/* NAVBAR */
 .navbar {
     background: #3f51b5;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 12px 20px;
     color: white;
+    position: relative;
 }
 
 .logo-area {
     display: flex;
     align-items: center;
     margin-right: 20px;
+    position: absolute;
+    left: 20px;
 }
 
 .logo {
@@ -31,11 +34,11 @@ body {
     font-weight: bold;
 }
 
-/* LINKS */
 .nav-links {
     display: flex;
     gap: 18px;
     flex: 1;
+    justify-content: center;
 }
 
 .nav-links a {
@@ -48,7 +51,11 @@ body {
     text-decoration: underline;
 }
 
-/* SEARCH */
+.search-box {
+    position: absolute;
+    right: 20px;
+}
+
 .search-box input {
     padding: 8px 12px;
     border: none;
@@ -56,7 +63,6 @@ body {
     outline: none;
 }
 
-/* CONTENT */
 .container {
     width: 70%;
     margin: 40px auto;
@@ -80,7 +86,6 @@ p, li {
     line-height: 1.8;
 }
 
-/* TABLE */
 .info-table {
     width: 100%;
     border-collapse: collapse;
@@ -97,7 +102,6 @@ p, li {
     width: 40%;
 }
 
-/* FOOTER */
 footer {
     margin-top: 40px;
     color: gray;
