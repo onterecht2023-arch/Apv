@@ -37,8 +37,9 @@ body {
 .nav-links {
     display: flex;
     gap: 18px;
-    flex: 1;
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-links a {
